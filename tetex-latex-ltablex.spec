@@ -27,8 +27,6 @@ cechami pakietu longtable (wielostronicowe tabele).
 
 %prep
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{short_name}
