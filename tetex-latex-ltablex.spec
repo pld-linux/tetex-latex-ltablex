@@ -2,8 +2,8 @@
 %define short_name ltablex
 %define	texhash	[ ! -x %{_bindir}/texhash ] || %{_bindir}/texhash 1>&2 ;
 
-Summary:	Support for multipage tables with auto column width.
-Summary(pl):	Obs³uga wielostronnych tabel z automatyczn± szeroko¶ci± kolumn.
+Summary:	Support for multipage tables with auto column width
+Summary(pl):	Obs³uga wielostronnych tabel z automatyczn± szeroko¶ci± kolumn
 Name:		tetex-latex-%{short_name}
 Version:	1.0
 Release:	1
