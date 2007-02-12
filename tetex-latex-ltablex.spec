@@ -3,7 +3,7 @@
 %define	texhash	[ ! -x %{_bindir}/texhash ] || %{_bindir}/texhash 1>&2 ;
 
 Summary:	Support for multipage tables with auto column width
-Summary(pl):	Obs³uga wielostronnych tabel z automatyczn± szeroko¶ci± kolumn
+Summary(pl.UTF-8):   ObsÅ‚uga wielostronnych tabel z automatycznÄ… szerokoÅ›ciÄ… kolumn
 Name:		tetex-latex-%{short_name}
 Version:	1.0
 Release:	1
@@ -20,9 +20,9 @@ The package modifies the tabularx environment to combine the features
 of the tabularx package (auto-sized columns in a fixed width table)
 with those of the longtable package (multi-page tables).
 
-%description -l pl
-Pakiet modyfikuje ¶rodowisko tabularx ³±cz±c cechy pakietu tabularx
-(automatyczna szeroko¶æ kolumn w tabeli o narzuconej szeroko¶ci) z
+%description -l pl.UTF-8
+Pakiet modyfikuje Å›rodowisko tabularx Å‚Ä…czÄ…c cechy pakietu tabularx
+(automatyczna szerokoÅ›Ä‡ kolumn w tabeli o narzuconej szerokoÅ›ci) z
 cechami pakietu longtable (wielostronicowe tabele).
 
 %prep
