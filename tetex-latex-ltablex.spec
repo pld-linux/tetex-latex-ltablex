@@ -3,7 +3,7 @@
 %define	texhash	[ ! -x %{_bindir}/texhash ] || %{_bindir}/texhash 1>&2 ;
 
 Summary:	Support for multipage tables with auto column width
-Summary(pl.UTF-8):   Obsługa wielostronnych tabel z automatyczną szerokością kolumn
+Summary(pl.UTF-8):	Obsługa wielostronnych tabel z automatyczną szerokością kolumn
 Name:		tetex-latex-%{short_name}
 Version:	1.0
 Release:	1
